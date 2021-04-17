@@ -62,10 +62,10 @@ grid login
 
 # clone the repo
 git clone https://github.com/williamFalcon/cifar5.git
-cd cifar5/project
+cd cifar5
 
 # start run!
-grid run --g_instance_type 8_v100_32gb lit_image_classifier.py --gpus 1 --learning_rate "uniform(1e-5, 1e-1, 8)"
+grid run --g_instance_type 8_v100_32gb project/lit_image_classifier.py --gpus 1 --learning_rate "uniform(1e-5, 1e-1, 8)"
 ```
 
 The command above generates 8 experiments
