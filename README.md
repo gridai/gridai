@@ -53,33 +53,21 @@ Visit [Grid.AI](https://www.grid.ai/pricing/)
 ## Runs
 Run (and sweep) any private or public Github repository on the cloud.  
 
-### Run via Web UI
-![Grid Run](https://grid-docs.s3.us-east-2.amazonaws.com/run_2.gif)
+```bash
+# install
+pip install lightning-grid
 
-### Run via CLI  
-Grid offers a full CLI
+# login
+grid login
 
-![image](https://user-images.githubusercontent.com/3640001/115098791-9ba00b80-9ef7-11eb-866d-438c4ce2ad16.png)
+# clone the repo
+git clone https://github.com/williamFalcon/cifar5.git
+cd cifar5/project
 
-
-<details>
-  <summary>Code snippet</summary>
-    ```bash
-    # install
-    pip install lightning-grid
-
-    # login
-    grid login
-
-    # clone the repo
-    git clone https://github.com/williamFalcon/cifar5.git
-    cd cifar5/project
-
-    # start run!
-    grid run --g_instance_type 8_v100_32gb \
-             lit_image_classifier.py --gpus 1 --learning_rate "uniform(1e-5, 1e-1, 8)"
-    ```
-</details>
+# start run!
+grid run --g_instance_type 8_v100_32gb \
+         lit_image_classifier.py --gpus 1 --learning_rate "uniform(1e-5, 1e-1, 8)"
+```
 
 The command above generates 8 experiments
 ```bash
