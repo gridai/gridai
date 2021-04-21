@@ -9,26 +9,21 @@ assignees: ''
 
 ## 🐛 Bug
 
-<!-- A clear and concise description of what the bug is. -->
+<!-- Description of issue -->
 
 ### Expected behavior
 
-<!-- A clear and concise description of what you expected to happen. -->
+<!-- What was expected behavior -->
 
 ### Current behavior
 
-<!-- A clear and concise description of what actually happen. -->
+<!-- What is current behavior -->
 
 ### To Reproduce
 
-Steps to reproduce the behavior:
+Steps to reproduce the issue
 
-1. Go to '...'
-2. Run '....'
-3. Scroll down to '....'
-4. See error
-
-<!-- If you have a code sample, error messages, stack traces, please provide it here as well -->
+<!-- If you have a code sample, error messages, stack traces, please provide those here as well -->
 
 ### Environment
 
