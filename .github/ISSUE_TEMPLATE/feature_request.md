@@ -9,15 +9,15 @@ assignees: ''
 
 ## 🚀 Feature
 
-<!-- A clear and concise description of the feature proposal -->
+<!-- Feature proposal, please indicate what area: for example Runs, Sessions, Datastores -->
 
 ### Description
 
-<!-- A clear and concise description of what you want to happen. -->
+<!-- A clear and concise description of how this feature would work -->
 
-### Motivation/Alternatives
+### Motivation
 
-<!-- A clear and concise description of any alternative solutions or features you've considered, if any. -->
+<!-- What are some of the pain points being addressed by this feature -->
 
 ### Additional context
 
