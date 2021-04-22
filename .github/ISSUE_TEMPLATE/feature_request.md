@@ -1,4 +1,11 @@
+---
+name: Feature
+about: Create a feature request
+title: ''
+labels: feature
+assignees: ''
 
+---
 
 ## 🚀 Feature
 
