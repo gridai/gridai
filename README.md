@@ -22,7 +22,9 @@ From the creators of PyTorch Lightning.**
 [![PyPI Status](https://badge.fury.io/py/lightning-grid.svg)](https://badge.fury.io/py/lightning-grid)
 [![Docs](https://img.shields.io/badge/docs-passing-green)](https://docs.grid.ai)
 [![Slack](https://img.shields.io/badge/slack-chat-green.svg?logo=slack)](https://join.slack.com/t/gridai-community/shared_invite/zt-ozqiwuif-UYK6rZGVmTTpMfPcVSdicg)
-![](https://img.shields.io/badge/grid-AI-blue.svg?logo=data:image/svg%2bxml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEgMTR2MjBhMTQgMTQgMCAwMDE0IDE0aDlWMzYuOEgxMi42VjExaDIyLjV2N2gxMS4yVjE0QTE0IDE0IDAgMDAzMi40IDBIMTVBMTQgMTQgMCAwMDEgMTR6IiBmaWxsPSIjZmZmIi8+PHBhdGggZD0iTTM1LjIgNDhoMTEuMlYyNS41SDIzLjl2MTEuM2gxMS4zVjQ4eiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==)
+
+![](https://img.shields.io/badge/pytorch-lightning-blue.svg?logo=PyTorch%20Lightning)
+![](https://img.shields.io/badge/grid-ai-blue.svg?logo=Grid.ai&logoColor=white)
 </div>
 
 ---
