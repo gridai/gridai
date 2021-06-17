@@ -1,145 +1,132 @@
+<div align="center">
+
+<img src="https://github.com/gridai/gridai/blob/main/grid_logo.png" width="200px">
+<br>
+
+**Focus on machine learning, NOT infrastructure.    
+From the creators of PyTorch Lightning.**
+
 ---
-description: >-
-  Grid is a platform for developing and training machine learning models at
-  scale.
+
+<p align="center">
+  <a href="https://grid.ai">Website</a> •
+  <a href="#runs">Runs</a> •
+  <a href="#interactive-sessions">Interactive Sessions</a> •
+  <a href="https://docs.grid.ai">Docs</a> •
+  <a href="#run-examples">Run Examples</a> •
+  <a href="https://join.slack.com/t/gridai-community/shared_invite/zt-ozqiwuif-UYK6rZGVmTTpMfPcVSdicg">Join our Slack</a> •
+  <a href="https://github.com/williamFalcon/pytorch-lightning">PyTorch Lightning</a>
+</p>
+
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/lightning-grid)](https://pypi.org/project/lightning-grid/)
+[![PyPI Status](https://badge.fury.io/py/lightning-grid.svg)](https://badge.fury.io/py/lightning-grid)
+[![Docs](https://img.shields.io/badge/docs-passing-green)](https://docs.grid.ai)
+[![Slack](https://img.shields.io/badge/slack-chat-green.svg?logo=slack)](https://join.slack.com/t/gridai-community/shared_invite/zt-ozqiwuif-UYK6rZGVmTTpMfPcVSdicg)
+
+![](https://img.shields.io/badge/pytorch-lightning-blue.svg?logo=PyTorch%20Lightning)
+![](https://img.shields.io/badge/grid-ai-blue.svg?logo=Grid.ai&logoColor=white)
+</div>
+
 ---
 
-# Grid in 3 minutes
+## Grid.AI
+Grid.AI lets you seamlessly train hundreds of machine learning models on the cloud from your laptop.
 
-## Introduction
+***Note: This repository will host the opensource components of Grid once they are ready. In the meantime
+please use this to request features and to get help.***
 
-Grid is designed for developing and training deep learning models at scale.
+---
 
-The TL;DR of using Grid is this:
+## Grid Philosophy
+Grid follows the same philosophy that we use for [PyTorch Lightning](https://github.com/PyTorchLightning/pytorch-lightning):
 
-* Create a **DATASTORE** with your dataset.
-* Spin up an interactive **SESSION** to develop, analyze and prototype models/ideas.
-* When you have something that works, train it at scale via **RUN.**
+- Let the user focus on machine learning not engineering.  
+- Remove all the infrastructure engineering so the user can focus.
+- Focused on reproducibility
 
-This 3-minute video shows you how to execute code on cloud instances with zero code changes and how to debug/prototype and develop models with multi-GPU cloud instances.
+## Key features
+- [Runs](https://docs.grid.ai/products/run-run-and-sweep-github-files): Run (and sweep) any private or public Github repository.
+- [Sessions](https://docs.grid.ai/products/sessions): Interactive machines (with multiple GPUs) optimized for development.
+- [Datastores](https://docs.grid.ai/products/add-data-to-grid-datastores): Low-latency, high-performance, auto-versioned datasets.
+- Realtime costs + much more
 
-{% embed url="https://grid-docs.s3.us-east-2.amazonaws.com/intro\_video\_mp42.mp4" caption="" %}
+## Create a free account
+Visit [Grid.AI](https://www.grid.ai/pricing/)
 
-Here is a quick overview of
-
-\*\*\*\*[**Datastores**](products/add-data-to-grid-datastores/#datastores-scalable-datasets)\*\*\*\*
-
-\*\*\*\*[**Sessions**](products/sessions/#sessions)\*\*\*\*
-
-\*\*\*\*[**Runs**](products/run-run-and-sweep-github-files/#runs)\*\*\*\*
-
-## **Infrastructure is gone**
-
-Grid allocates all the machines and GPUs you need on demand, so you only pay for what you need when you need it.
-
-Grid lets you focus on your work, NOT on the infrastructure
-
-## Artifacts, logs, etc...
-
-Grid handles all the other parts of developing and training at scale:
-
-* Artifacts
-* Logs
-* Metrics
-* etc...
-
-Just run your files and watch the magic happen
-
-## Experiment managers
-
-Grid works with the experiment manager of your choice!!🔥🔥
-
-No need to change your code!
-
-## Datastores: \(scalable datasets\)
-
-In Grid, we've introduced _Datastores_, high-performance, low-latency, versioned datasets.
-
-![](.gitbook/assets/jobs_2.jpg)
-
-The UI supports creating Datastores of &lt; 1 GB
-
-{% embed url="https://grid-docs.s3.us-east-2.amazonaws.com/datastore.mp4" caption="" %}
-
-Use the CLI for larger datastores
+## Runs
+Run (and sweep) any private or public Github repository on the cloud.  
 
 ```bash
-grid datastores create --source imagenet_folder --name imagenet
-```
+# install
+pip install lightning-grid
 
-## Sessions \(interactive machines\)
-
-For prototyping/debugging/analyzing, sometimes you need a LIVE machine. We call these _Sessions_.
-
-**Web UI: Starting a new session**
-
-![](.gitbook/assets/session.jpg)
-
-{% embed url="https://grid-docs.s3.us-east-2.amazonaws.com/session\_3.mp4" caption="" %}
-
-\*\*\*\*
-
-**CLI: Starting a new session**
-
-```bash
-# session with 2 M60 GPUs
-grid session create --instance_type 2_m60_8gb
-```
-
-## **RUN \(Sweep and train anything\)**
-
-RUN **any** public or private repository with Grid in 5 steps:
-
-![](.gitbook/assets/exps.jpg)
-
-This 1-minute video shows how to RUN from the web app:
-
-{% embed url="https://grid-docs.s3.us-east-2.amazonaws.com/run.mp4" caption="" %}
-
-If you prefer to use the CLI simply replace python with grid run.
-
-![](.gitbook/assets/carbon-1-%20%281%29.png)
-
-First, install Grid and login
-
-```bash
-pip install lightning-grid --upgrade
+# login
 grid login
+
+# clone the repo
+git clone https://github.com/williamFalcon/cifar5.git
+cd cifar5
+
+# start run!
+grid run --instance_type 8_v100_32gb project/lit_image_classifier.py --gpus 1 --learning_rate "uniform(1e-5, 1e-1, 8)"
 ```
 
-Now clone the repo and hit run!
-
+The command above generates 8 experiments
 ```bash
-# clone repo
-git clone https://github.com/williamFalcon/hello
-cd hello
-
-# start the sweep
-grid run hello.py --number "[1, 2]" --food_item "['pizza', 'pear']"
+(flash) ➜  project git:(master) grid status gifted-seahorse-83
+✔ Fetching experiment status ... done!
+┏━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━━━━━━━┳━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Experiment              ┃                          Command ┃ Status ┃    Duration ┃ gpus ┃        learning_rate ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━━━━━━━╇━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━┩
+│ gifted-seahorse-83-exp7 │ /project/lit_image_classifier.py │ queued │ 0d-00:00:21 │    1 │  0.07858944673974376 │
+│ gifted-seahorse-83-exp6 │ /project/lit_image_classifier.py │ queued │ 0d-00:00:21 │    1 │   0.0492955135740864 │
+│ gifted-seahorse-83-exp5 │ /project/lit_image_classifier.py │ queued │ 0d-00:00:21 │    1 │ 0.005299488022082154 │
+│ gifted-seahorse-83-exp4 │ /project/lit_image_classifier.py │ queued │ 0d-00:00:21 │    1 │  0.09214628765569398 │
+│ gifted-seahorse-83-exp3 │ /project/lit_image_classifier.py │ queued │ 0d-00:00:21 │    1 │  0.04288827588691595 │
+│ gifted-seahorse-83-exp2 │ /project/lit_image_classifier.py │ queued │ 0d-00:00:21 │    1 │  0.02618640734272168 │
+│ gifted-seahorse-83-exp1 │ /project/lit_image_classifier.py │ queued │ 0d-00:00:21 │    1 │  0.03269913908273296 │
+│ gifted-seahorse-83-exp0 │ /project/lit_image_classifier.py │ queued │ 0d-00:00:21 │    1 │  0.06192848686653007 │
+└─────────────────────────┴──────────────────────────────────┴────────┴─────────────┴──────┴──────────────────────┘
 ```
 
-This command produces these equivalent calls automatically
+## Interactive Sessions
+Sessions allow you to develop models interactively with direct ssh, VSCode and Jupyter Notebook access already built-in.
 
+![Grid Session](https://grid-docs.s3.us-east-2.amazonaws.com/sess_abc_compressed.gif)
+
+Or via the CLI
 ```bash
-python hello.py --number 1 --food_item 'pizza'
-python hello.py --number 2 --food_item 'pizza'
-
-python hello.py --number 1 --food_item 'pear'
-python hello.py --number 2 --food_item 'pear'
+grid session create --instance_type 8_v100_32gb
 ```
+---
 
-## That's it!
+## Run Examples
 
-We learned that:
+### Vision
+[3D Image classification](https://docs.grid.ai/examples/vision/mosmeddata-3d-image-classification)     
+[Image classificatin (ImageNet)](https://docs.grid.ai/examples/vision/image-classification-with-imagenet)    
+[Object detection (Coco)](https://docs.grid.ai/examples/vision/coco)
 
-* **RUN** executes scripts on cloud machines \(and runs hyperparameter sweeps\)
-* **SESSION** starts an interactive machine with the CPU/GPUs of your choice
-* **DATASTORE** is an optimized, low-latency auto-versioned dataset.
-* Grid has a **Web app** and a **CLI** with similar functionality.
+### NLP
+[GPT 10+ B Params](https://docs.grid.ai/examples/nlp/gpt-10b+-params-8-gpus)    
+[Text classification](https://docs.grid.ai/examples/nlp/text-classification)
 
-That's all you need to know about Grid!
+### Self-supervised learning
+[SIMCLR](https://docs.grid.ai/examples/self-supervised-learning-1)
 
-## Next!
+---
 
-Now try our [first tutorial](start-here/typical-workflow-web-user.md)
+## Community
 
+The Grid community is the place to chat about Deep Learning, machine learning and anything about scaling up production or research projects!
+[Join our slack](https://join.slack.com/t/gridai-community/shared_invite/zt-ozqiwuif-UYK6rZGVmTTpMfPcVSdicg)
+
+### Asking for help
+If you have any questions here are some things you can do:
+
+1. [Read the docs](https://docs.grid.ai).
+2. [Start a discussion](https://github.com/gridai/gridai/discussions).
+3. [Create a Github issue](https://github.com/gridai/gridai/issues/new).
+
+### Enterprise support
+For enterprise tier and support, [register your interest here](https://gridai.wpengine.com/upgrade/)
