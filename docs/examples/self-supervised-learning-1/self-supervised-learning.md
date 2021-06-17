@@ -29,7 +29,7 @@ A Simple Framework for Contrastive Learning of Visual Representations \([SimCLR]
 
 Use the Web Interface, select New Run and choose this script: [https://github.com/gridai/lightning-simclr/blob/master/src/train.py](https://github.com/gridai/lightning-simclr/blob/master/src/train.py)
 
-![](../../.gitbook/assets/screen-shot-2021-04-12-at-5.10.59-pm.png)
+![](../../../.gitbook/assets/screen-shot-2021-04-12-at-5.10.59-pm.png)
 
 Add script arguments to set batch size, number of workers etc
 
@@ -40,7 +40,7 @@ Add script arguments to set batch size, number of workers etc
     --max_epochs 800
 ```
 
-![](../../.gitbook/assets/screen-shot-2021-04-12-at-5.12.48-pm.png)
+![](../../../.gitbook/assets/screen-shot-2021-04-12-at-5.12.48-pm.png)
 
 Model starts to train.
 
@@ -48,13 +48,13 @@ Model starts to train.
 
 Visualize training on the Web interface, see metrics and download checkpoints from the run
 
-![](../../.gitbook/assets/simclr2.gif)
+![](../../../.gitbook/assets/simclr2.gif)
 
 ## Step 3: Download artifacts
 
 Navigate to experiment details and download the artifacts
 
-![](../../.gitbook/assets/screen-shot-2021-04-12-at-5.14.58-pm.png)
+![](../../../.gitbook/assets/screen-shot-2021-04-12-at-5.14.58-pm.png)
 
 ## Bonus: Run on CLI with 8 GPUs
 

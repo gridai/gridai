@@ -31,7 +31,7 @@ In this video we're going to run an arbitrary model \(from the pytorch examples 
 
 [Click here for a 2-minute tour of RUN](https://platform.grid.ai/#/dashboard?product_tour_id=226810)
 
-![](../../.gitbook/assets/image%20%2843%29.png)
+![](../../../.gitbook/assets/image%20%2843%29.png)
 
 ## Option 1: Run via the CLI
 
@@ -73,7 +73,7 @@ A RUN is a collection of experiments \(the run has 4 experiments in this example
 
 ## **Option 2: Start via the web UI**
 
-![](../../.gitbook/assets/run_start.gif)
+![](../../../.gitbook/assets/run_start.gif)
 
 
 

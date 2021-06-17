@@ -8,7 +8,7 @@ Use the **pause** feature for this.
 
 You will NOT be charged for paused Sessions.
 
-![](../../.gitbook/assets/pause%20%282%29.gif)
+![](../../../.gitbook/assets/pause%20%282%29.gif)
 
 The equivalent via the CLI
 
@@ -20,7 +20,7 @@ grid session pause the-interactive-name
 
 When you're ready to rebuild your session environment, press restart.
 
-![](../../.gitbook/assets/unpause.gif)
+![](../../../.gitbook/assets/unpause.gif)
 
 The equivalent via the CLI
 

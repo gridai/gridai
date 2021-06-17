@@ -12,7 +12,7 @@ Grid has a 1:1 match in functionality with the CLI.
 
 We'll use image classification as an example to illustrate the key ideas.  The typical workflow goes like this:
 
-![](../.gitbook/assets/image%20%28135%29.png)
+![](../../.gitbook/assets/image%20%28135%29.png)
 
 Note a few things:
 
@@ -51,19 +51,19 @@ Note a few things:
 
 For this tutorial we'll be using CIFAR-5. This is a subset of [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) that we've chosen to make the models train faster.
 
-![CIFAR-5 \(modified from CIFAR-10\)](../.gitbook/assets/image%20%28109%29.png)
+![CIFAR-5 \(modified from CIFAR-10\)](../../.gitbook/assets/image%20%28109%29.png)
 
 The goal is to teach a small neural network to classify these 5 sets of classes.
 
 ## Step 0: Prepare the dataset
 
-![](../.gitbook/assets/image%20%2832%29.png)
+![](../../.gitbook/assets/image%20%2832%29.png)
 
 \(Time: **2 minutes**\)
 
 If your dataset is already is in zip/tar/tar.gz format you can create a datastore by simply pasting it into the UI.
 
-![](../.gitbook/assets/zip_ds.gif)
+![](../../.gitbook/assets/zip_ds.gif)
 
 But for the sake of simulating a non-trivial workflow where you already have the data locally or on a cluster, go ahead and download the dataset to your machine and unzip it.
 
@@ -72,13 +72,13 @@ But for the sake of simulating a non-trivial workflow where you already have the
 
 You should now have a folder with this structure:
 
-![](../.gitbook/assets/image%20%2870%29.png)
+![](../../.gitbook/assets/image%20%2870%29.png)
 
 Now that we all have the same data, let's start the real tutorial!
 
 ## Step 1: Create a datastore
 
-![](../.gitbook/assets/image%20%2831%29.png)
+![](../../.gitbook/assets/image%20%2831%29.png)
 
 \(Time: **2 minutes**\)
 
@@ -86,7 +86,7 @@ In a realistic workflow, we would start here. The first thing you want to do is 
 
 Let's create the datastore:
 
-![](../.gitbook/assets/untitled-2.gif)
+![](../../.gitbook/assets/untitled-2.gif)
 
 {% hint style="info" %}
 For datasets 1 GB or larger, use the [CLI](../products/global-cli-configs/cli-api/grid-datastores.md)
@@ -110,7 +110,7 @@ Start a Session named _resnet-debugging_ with 2 M60 GPUs on it and attach our **
 
 **Note: A credit card needs to be added to use GPU machines**
 
-![](../.gitbook/assets/sess_2%20%281%29.gif)
+![](../../.gitbook/assets/sess_2%20%281%29.gif)
 
 Sessions really shine with **huge datasets**. The automatic mounting feature means you can jump straight to work without waiting a long time for your data to be available.
 
@@ -118,11 +118,11 @@ Sessions really shine with **huge datasets**. The automatic mounting feature mea
 TIP: If you prefer to ssh directly or use VSCode \(instead of using Jupyter lab\), the other icons have setup instructions. 
 {% endhint %}
 
-![](../.gitbook/assets/image%20%2864%29.png)
+![](../../.gitbook/assets/image%20%2864%29.png)
 
 ## Step 3: Develop the model
 
-![](../.gitbook/assets/image%20%2869%29.png)
+![](../../.gitbook/assets/image%20%2869%29.png)
 
 \(Time: 5 **minutes**\)
 
@@ -132,11 +132,11 @@ For this tutorial, I'm going to use a non-trivial project structure that is repr
 
 The project has this structure
 
-![](../.gitbook/assets/image%20%28133%29.png)
+![](../../.gitbook/assets/image%20%28133%29.png)
 
 This folder is complicated on purpose to showcase that Grid is designed for realistic deep learning workloads. I'm purposely avoiding simple projects \([code reference](https://github.com/williamFalcon/cifar5-simple)\) that look like this \(since those are trivial for Grid to handle.\)
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](../../.gitbook/assets/image%20%289%29.png)
 
 {% hint style="info" %}
 For best practices structuring machine learning projects in general, [read our guide](https://app.gitbook.com/@grid-ai/s/grid-cli/~/drafts/-MV7NJIqFCxJS-A3u0w3/deep-learning-at-scale/structuring-code-repositories). \(Coming Soon\)
@@ -151,7 +151,7 @@ On the session you would normally:
 
 We're going to run the model using the following instructions. This GIF illustrates what we are about to do\).
 
-![](../.gitbook/assets/run.gif)
+![](../../.gitbook/assets/run.gif)
 
 Clone the project **on the interactive Session**
 
@@ -206,7 +206,7 @@ Great! now that our model is ready to run at scale, we can pause the session. Pa
 
 It's a good idea to use a different session per project you're working on, so it's easy to pick up where you left off.
 
-![](../.gitbook/assets/pause%20%281%29.gif)
+![](../../.gitbook/assets/pause%20%281%29.gif)
 
 {% hint style="success" %}
 Paused Sessions don't cost you money!
@@ -214,7 +214,7 @@ Paused Sessions don't cost you money!
 
 ## Step 5: RUN \(hyperparam sweep\)
 
-![](../.gitbook/assets/image%20%28125%29.png)
+![](../../.gitbook/assets/image%20%28125%29.png)
 
 \(Time: 1 **minute**\)
 
@@ -261,7 +261,7 @@ Here are some tricks to get you beyond the basic user status.
 
 Let's say you want to start a run again but only change a few arguments. Use the clone button
 
-![](../.gitbook/assets/clone%20%282%29.gif)
+![](../../.gitbook/assets/clone%20%282%29.gif)
 
 
 
@@ -269,13 +269,13 @@ Let's say you want to start a run again but only change a few arguments. Use the
 
 Any script that uses tensorboard is compatible with Grid
 
-![](../.gitbook/assets/tb.gif)
+![](../../.gitbook/assets/tb.gif)
 
 ### Create artifacts
 
 Anything your model produces can be viewed on Grid.
 
-![](../.gitbook/assets/artifacts%20%281%29.gif)
+![](../../.gitbook/assets/artifacts%20%281%29.gif)
 
 ### CLI
 

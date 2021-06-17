@@ -55,7 +55,7 @@ No need to change your code!
 
 In Grid, we've introduced _Datastores_, high-performance, low-latency, versioned datasets.
 
-![](.gitbook/assets/jobs_2.jpg)
+![](../.gitbook/assets/jobs_2.jpg)
 
 The UI supports creating Datastores of &lt; 1 GB
 
@@ -73,7 +73,7 @@ For prototyping/debugging/analyzing, sometimes you need a LIVE machine. We call 
 
 **Web UI: Starting a new session**
 
-![](.gitbook/assets/session.jpg)
+![](../.gitbook/assets/session.jpg)
 
 {% embed url="https://grid-docs.s3.us-east-2.amazonaws.com/session\_3.mp4" caption="" %}
 
@@ -90,7 +90,7 @@ grid session create --instance_type 2_m60_8gb
 
 RUN **any** public or private repository with Grid in 5 steps:
 
-![](.gitbook/assets/exps.jpg)
+![](../.gitbook/assets/exps.jpg)
 
 This 1-minute video shows how to RUN from the web app:
 
@@ -98,7 +98,7 @@ This 1-minute video shows how to RUN from the web app:
 
 If you prefer to use the CLI simply replace python with grid run.
 
-![](.gitbook/assets/carbon-1-%20%281%29.png)
+![](../.gitbook/assets/carbon-1-%20%281%29.png)
 
 First, install Grid and login
 
@@ -141,5 +141,6 @@ That's all you need to know about Grid!
 
 ## Next
 
-Try our [first tutorial](start-here/typical-workflow-web-user.md)...
+Try our [first tutorial](start-here/typical-workflow-web-user.md)!
+
 

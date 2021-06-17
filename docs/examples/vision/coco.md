@@ -30,7 +30,7 @@ _Object detection_ is the task of _detecting_ instances of _objects_ of a certai
 
 The COCO \(Common Objects in Context\) _dataset_ \([reference](https://cocodataset.org/)\) is a large-scale object detection dataset with 91 instance classes.
 
-![Example CoCo Images](../../.gitbook/assets/image%20%28124%29.png)
+![Example CoCo Images](../../../.gitbook/assets/image%20%28124%29.png)
 
 ## Step 1: Model
 
@@ -98,7 +98,7 @@ In this step, we load the Grid weights in Flash and run the model to detect obje
 
 1. Download Artifacts from Grid Run 
 
-![](../../.gitbook/assets/image%20%2883%29.png)
+![](../../../.gitbook/assets/image%20%2883%29.png)
 
 1. Load model to our script and inference in 4 lines of code. 
 

@@ -24,13 +24,13 @@ Session features:
 
 [Click here for the 1-minute tour of Sessions](https://platform.grid.ai/#/dashboard?product_tour_id=221973)
 
-![](../../.gitbook/assets/image%20%2856%29.png)
+![](../../../.gitbook/assets/image%20%2856%29.png)
 
 ## **Start a Session**
 
-![](../../.gitbook/assets/session.jpg)
+![](../../../.gitbook/assets/session.jpg)
 
-![](../../.gitbook/assets/sess%20%282%29%20%281%29%20%282%29%20%282%29%20%282%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%282%29.gif)
+![](../../../.gitbook/assets/sess%20%282%29%20%281%29%20%282%29%20%282%29%20%282%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%282%29.gif)
 
 The equivalent via the CLI command:
 
@@ -41,7 +41,7 @@ grid session create --instance_type 2_m60_8gb
 
 ## Delete a Session
 
-![](../../.gitbook/assets/delete.gif)
+![](../../../.gitbook/assets/delete.gif)
 
 The equivalent CLI command:
 

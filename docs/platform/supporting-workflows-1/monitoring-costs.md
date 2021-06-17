@@ -14,13 +14,13 @@ All costs are estimates until runs or Sessions are complete
 
 Runs and Sessions pages also show the cost per experiment and cost of each session; the dashboard is the easiest way to see the costs.
 
-![](../../.gitbook/assets/costs.gif)
+![](../../../.gitbook/assets/costs.gif)
 
 ## Low Balance Warning
 
 If the balance goes below $10, Grid will warn you about "low balance remaining"
 
-![](../../.gitbook/assets/lowbalance.png)
+![](../../../.gitbook/assets/lowbalance.png)
 
 Zero balance will prompt a shut down of interactive sessions as well as active runs.
 

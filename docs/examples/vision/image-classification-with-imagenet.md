@@ -26,7 +26,7 @@ There's a lot of waiting around for data downloads and uploads, but everything e
 
 ImageNet is a dataset of natural images \(1000 classes\) with over 1.3 million images. It is about 100GB in size.
 
-![](../../.gitbook/assets/image%20%2862%29.png)
+![](../../../.gitbook/assets/image%20%2862%29.png)
 
 The challenges of working with ImageNet are:
 
@@ -54,7 +54,7 @@ It's a good practice to use screen for long-running processes.
 
 Open a new terminal
 
-![](../../.gitbook/assets/image%20%2842%29.png)
+![](../../../.gitbook/assets/image%20%2842%29.png)
 
 Start screen so you can do the download in the background.
 

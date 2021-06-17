@@ -2,7 +2,7 @@
 
 ## Attach to a RUN
 
-![](../../.gitbook/assets/data.gif)
+![](../../../.gitbook/assets/data.gif)
 
 When attaching datastores to a run, take note of the path your script uses. For example if your script takes an argument _my\_data\_path_ and you want to mount the _cats_ datastore:
 
@@ -55,11 +55,11 @@ val/
 
 To run on this datastore, select the datastore from the dropdown
 
-![](../../.gitbook/assets/image%20%2812%29.png)
+![](../../../.gitbook/assets/image%20%2812%29.png)
 
 Now pass the name of the datastore to your command
 
-![](../../.gitbook/assets/image%20%2840%29.png)
+![](../../../.gitbook/assets/image%20%2840%29.png)
 
 which is equivalent to calling your script like so:
 

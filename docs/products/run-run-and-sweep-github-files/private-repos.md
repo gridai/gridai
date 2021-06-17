@@ -4,7 +4,7 @@
 
 By default you can only access public Github repositories on Grid. To grant access to your private code navigate to Settings &gt; Integrations &gt; Grant access.
 
-![](../../.gitbook/assets/github.gif)
+![](../../../.gitbook/assets/github.gif)
 
 ## About private code
 

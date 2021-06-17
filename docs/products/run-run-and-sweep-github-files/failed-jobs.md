@@ -6,7 +6,7 @@ When your jobs fail it could be for 2 reasons, something failed during build or 
 
 To see build failures, visit the build logs tab on the UI.
 
-![](../../.gitbook/assets/build_logs.gif)
+![](../../../.gitbook/assets/build_logs.gif)
 
 Failures at this stage can happen because:
 
@@ -18,7 +18,7 @@ Failures at this stage can happen because:
 
 If the build completes but your script has a failure \(ie: bug that causes exception\) view the logs here
 
-![](../../.gitbook/assets/stdout_logs.gif)
+![](../../../.gitbook/assets/stdout_logs.gif)
 
 Failures here can happen with:
 

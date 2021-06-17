@@ -6,5 +6,5 @@ View history of all runs using the grid history command
 grid history
 ```
 
-![](../../../.gitbook/assets/image%20%2846%29.png)
+![](../../../../.gitbook/assets/image%20%2846%29.png)
 

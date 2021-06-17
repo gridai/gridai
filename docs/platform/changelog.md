@@ -128,7 +128,7 @@ New version v0.3.60. And many other fixes
 
 We've added lots of new features to the UI including cloning a run! Lot of times, you may want to re-run with minor modifications or maybe run on a different GPU. You can do that now by simply going to the run and click Clone Run, then populate with your choice of parameters etc and done!
 
-![](../.gitbook/assets/clone%20%281%29.gif)
+![](../../.gitbook/assets/clone%20%281%29.gif)
 
 Downloading artifacts all together just got easier in the CLI 
 
@@ -142,7 +142,7 @@ grid artifacts --download_dir  DIRECTORY  Download directory that will host all
 
 You can now download a CSV showing the contents of the experiments table
 
-![](../.gitbook/assets/image%20%28141%29.png)
+![](../../.gitbook/assets/image%20%28141%29.png)
 
 
 
@@ -155,7 +155,7 @@ The charts are much more robust, with:
 * tooltips
 * resizing of charts
 
-![](../.gitbook/assets/image%20%28108%29.png)
+![](../../.gitbook/assets/image%20%28108%29.png)
 
 ### Many bug fixes
 
@@ -188,11 +188,11 @@ The “Runs” page is improved for usability, showing the Runs panel on a colum
 
 **Scalars can now be visualized on the Runs page in the Experiment Metrics area.**
 
-![](../.gitbook/assets/metrics%20%281%29.gif)
+![](../../.gitbook/assets/metrics%20%281%29.gif)
 
 **Hyperparameters are visible in the Experiments table to easily filter or compare.**
 
-![](../.gitbook/assets/hyperparams.gif)
+![](../../.gitbook/assets/hyperparams.gif)
 
 **Datastores upload user interactions are improved;** you can now see a progress bar showing datastore upload percentage and ability to cancel.
 

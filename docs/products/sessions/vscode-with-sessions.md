@@ -33,17 +33,17 @@ grid session ssh fun-bear-259
 
 ## Step 4: Install remote ssh extension
 
-![](../../.gitbook/assets/image%20%2893%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29.png)
+![](../../../.gitbook/assets/image%20%2893%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29.png)
 
 ## Step 5: Click the remote tab and find your session
 
-![](../../.gitbook/assets/vscode%20%281%29.gif)
+![](../../../.gitbook/assets/vscode%20%281%29.gif)
 
 ## Step 6: Ready
 
 Clicking on it will open VSCode in the remote IxNode. You can use VSCode with any of its features.
 
-![](../../.gitbook/assets/vscode.gif)
+![](../../../.gitbook/assets/vscode.gif)
 
 {% hint style="info" %}
 You can clone any Github repositories into a Session using the [HTTPS cloning method](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-using-the-command-line) \(SSH will not work\).

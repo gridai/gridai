@@ -26,7 +26,7 @@ _Video Classification_ is the task of _classifying_ _videos_ based on _classes_ 
 
 The Kinetics Human Action Video Dataset released by DeepMind \([reference](https://deepmind.com/research/open-source/kinetics)\) is a large-scale video understanding dataset comprised of annotated~10s video clips sourced from YouTube.
 
-![Example Kinetics Video Thumbnails](../../.gitbook/assets/image%20%28137%29.png)
+![Example Kinetics Video Thumbnails](../../../.gitbook/assets/image%20%28137%29.png)
 
 ## Step 1: Model
 
@@ -62,7 +62,7 @@ In this step, we load the Grid weights in Flash and run the model to classify vi
 
 1.Download Artifacts from Grid Run
 
-![](../../.gitbook/assets/image%20%2834%29.png)
+![](../../../.gitbook/assets/image%20%2834%29.png)
 
 1. Load model to our script and inference in 4 lines of code. 
 

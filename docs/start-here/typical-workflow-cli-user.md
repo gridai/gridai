@@ -12,7 +12,7 @@ Grid has a 1:1 match in functionality with the Web app.
 
 We'll use image classification as the example to illustrate the key ideas. The typical workflow goes like this:
 
-![](../.gitbook/assets/image%20%28135%29.png)
+![](../../.gitbook/assets/image%20%28135%29.png)
 
 Note a few things:
 
@@ -49,7 +49,7 @@ Note a few things:
 
 For this tutorial we'll be using CIFAR-5. This is a subset of [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) that we've chosen to make the models train faster.
 
-![CIFAR-5 \(modified from CIFAR-10\)](../.gitbook/assets/image%20%28109%29.png)
+![CIFAR-5 \(modified from CIFAR-10\)](../../.gitbook/assets/image%20%28109%29.png)
 
 The goal is to teach a small neural network to classify these 5 sets of classes.
 
@@ -84,7 +84,7 @@ You'll only have to do this once!
 
 ## Step 1: Prepare the dataset
 
-![](../.gitbook/assets/image%20%2832%29.png)
+![](../../.gitbook/assets/image%20%2832%29.png)
 
 \(Time: 2 **minutes**\)
 
@@ -100,7 +100,7 @@ unzip cifar5.zip
 
 This should create a folder with this structure:
 
-![](../.gitbook/assets/image%20%2870%29.png)
+![](../../.gitbook/assets/image%20%2870%29.png)
 
 Now that we all have the same data, let's start the real tutorial!
 
@@ -110,7 +110,7 @@ Hint: The UI can create a datastore from a .zip... this is just for tutorial pur
 
 ## Step 2: Create a datastore
 
-![](../.gitbook/assets/image%20%2831%29.png)
+![](../../.gitbook/assets/image%20%2831%29.png)
 
 \(Time: 2 **minutes**\)
 
@@ -128,7 +128,7 @@ make sure it was created
 grid datastore list
 ```
 
-![Once it&apos;s succeeded, it&apos;s ready to be used](../.gitbook/assets/image%20%2836%29.png)
+![Once it&apos;s succeeded, it&apos;s ready to be used](../../.gitbook/assets/image%20%2836%29.png)
 
 Note: The datastore status moves through as series of statuses while it is being optimized. When it moves to "Succeeded" it's ready to be used.
 
@@ -203,7 +203,7 @@ See if it's ready
 grid status
 ```
 
-![](../.gitbook/assets/image%20%28120%29.png)
+![](../../.gitbook/assets/image%20%28120%29.png)
 
 ## Step 5: Connect to the Session
 
@@ -247,7 +247,7 @@ git push
 
 ## Step 6: Develop the model
 
-![](../.gitbook/assets/image%20%2869%29.png)
+![](../../.gitbook/assets/image%20%2869%29.png)
 
 \(Time: **5 minutes**\)
 
@@ -257,11 +257,11 @@ At the end of the last section you used ssh to make model changes. However, I ac
 
 First, launch VSCode.
 
-![](../.gitbook/assets/image%20%28138%29.png)
+![](../../.gitbook/assets/image%20%28138%29.png)
 
 Install the Remote Development extension
 
-![](../.gitbook/assets/image%20%2893%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
+![](../../.gitbook/assets/image%20%2893%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
 
 ssh into the interactive
 
@@ -281,11 +281,11 @@ For this tutorial, I'm going to use a non-trivial project structure that is repr
 
 The project has this structure
 
-![](../.gitbook/assets/image%20%28133%29.png)
+![](../../.gitbook/assets/image%20%28133%29.png)
 
 This folder is complicated on purpose to showcase that Grid is designed for realistic deep learning workloads. I'm purposely avoiding simple projects \([code reference](https://github.com/williamFalcon/cifar5-simple)\) that look like this \(since those are trivial for Grid to handle.\)
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](../../.gitbook/assets/image%20%289%29.png)
 
 {% hint style="info" %}
 For best practices structuring machine learning projects in general, stay tuned for a best practices guide
@@ -344,7 +344,7 @@ Great! now that our model is ready to run at scale, we can pause the session.
 grid session pause resnet-debugging
 ```
 
-![](../.gitbook/assets/image%20%2879%29.png)
+![](../../.gitbook/assets/image%20%2879%29.png)
 
 If you're tired of rebuilding environments every time you want to do a little bit of work, then pausing is your saving grace. Pausing:
 
@@ -356,7 +356,7 @@ In addition, a paused session **STOPS THE COST OF THE SESSION!**
 
 ## Step 8: RUN \(hyperparam sweep\)
 
-![](../.gitbook/assets/image%20%28125%29.png)
+![](../../.gitbook/assets/image%20%28125%29.png)
 
 \(Time: **1 minute**\)
 

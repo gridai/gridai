@@ -8,7 +8,7 @@ When experiments complete, simply open the Run details, click on "share the link
 
 As long as colleague has created account on Grid.ai, she can copy and paste in browser to run the same experiment in Grid platform in her account.
 
-![](../../.gitbook/assets/screen-shot-2021-05-19-at-9.41.49-pm.png)
+![](../../../.gitbook/assets/screen-shot-2021-05-19-at-9.41.49-pm.png)
 
 
 
