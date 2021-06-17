@@ -69,23 +69,23 @@ If you're curious about the machine spec, here's the list.
 
 ### P2 instance types
 
-![](../.gitbook/assets/image%20%2866%29.png)
+![](../../.gitbook/assets/image%20%2866%29.png)
 
 ### P3 instance types
 
-![](../.gitbook/assets/image%20%2854%29.png)
+![](../../.gitbook/assets/image%20%2854%29.png)
 
 ### G4 instance types
 
-![](../.gitbook/assets/image%20%2865%29.png)
+![](../../.gitbook/assets/image%20%2865%29.png)
 
 ### G3 instance types
 
-![](../.gitbook/assets/image%20%2837%29.png)
+![](../../.gitbook/assets/image%20%2837%29.png)
 
 ### T2 instance types
 
-![](../.gitbook/assets/image%20%28139%29.png)
+![](../../.gitbook/assets/image%20%28139%29.png)
 
 Please note: Costs seen in the various screens in product are an estimation
 

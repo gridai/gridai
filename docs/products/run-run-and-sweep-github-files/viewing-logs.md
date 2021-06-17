@@ -27,7 +27,7 @@ These logs can be viewed on Grid via the UI or CLI.‌
 
 View the logs output of each script by looking at each experiment's details menu:‌
 
-![](../../.gitbook/assets/logs%20%282%29.gif)
+![](../../../.gitbook/assets/logs%20%282%29.gif)
 
 ## View logs on the CLI <a id="view-logs-on-the-cli"></a>
 

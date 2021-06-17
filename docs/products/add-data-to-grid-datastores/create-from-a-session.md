@@ -9,7 +9,7 @@ For huge datasets that need processing or a lot of manual work, we recommend thi
 * process it
 * upload
 
-![](../../.gitbook/assets/upload_session.gif)
+![](../../../.gitbook/assets/upload_session.gif)
 
 ## Screen
 

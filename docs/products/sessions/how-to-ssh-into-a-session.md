@@ -30,7 +30,7 @@ grid ssh-keys add key_1 ~/.ssh/id_rsa.pub
 
 If you go to [settings](https://platform.grid.ai/#/settings?tabId=ssh), you'll see the key
 
-![](../../.gitbook/assets/image%20%2824%29%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29.png)
+![](../../../.gitbook/assets/image%20%2824%29%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29.png)
 
 ## Step 2: Launch the session
 
@@ -46,7 +46,7 @@ grid session create --instance_type 2_m60_8gb --name happy-owl-123
 grid session ssh happy-owl-123
 ```
 
-![](../../.gitbook/assets/cde.gif)
+![](../../../.gitbook/assets/cde.gif)
 
 {% hint style="info" %}
 You can clone any Github repositories into a Session using the [HTTPS cloning method](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-using-the-command-line) \(SSH method of cloning will not work\).

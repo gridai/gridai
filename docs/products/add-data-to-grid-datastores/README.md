@@ -10,7 +10,7 @@ In Grid, we've introduced _Datastores_, high-performance, low-latency, versioned
 
 Datastores can be attached to Runs or Sessions whenever your job needs data.
 
-![](../../.gitbook/assets/jobs_2.jpg)
+![](../../../.gitbook/assets/jobs_2.jpg)
 
 {% hint style="info" %}
 We don't charge for data storage!
@@ -22,7 +22,7 @@ Upload data to Grid using Datastores. Datastores are low-latency, auto-versioned
 
 [Click here for the 1-minute product tour](https://platform.grid.ai/#/dashboard?product_tour_id=221979)
 
-![](../../.gitbook/assets/image%20%28151%29.png)
+![](../../../.gitbook/assets/image%20%28151%29.png)
 
 ## Data inside the model script
 

@@ -30,7 +30,7 @@ _Text Summarization_ is the task of generating a consise overview of a text's ma
 
 The [Extreme Summarization \(**XSum**\)](https://paperswithcode.com/paper/dont-give-me-the-details-just-the-summary) dataset is a dataset for evaluation of abstractive single-document summarization systems consisting of 226,711 news articles collected from BBC \(2010 to 2017\) accompanied with a one-sentence summary. The articles cover a wide variety of subjects \(e.g., News, Politics, Sports, Weather, Business, Technology, Science, Health, Family, Education, Entertainment and Arts\)
 
-![Source: https://arxiv.org/pdf/1808.08745.pdf](../../.gitbook/assets/image%20%2818%29%20%281%29%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
+![Source: https://arxiv.org/pdf/1808.08745.pdf](../../../.gitbook/assets/image%20%2818%29%20%281%29%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
 
 ## Step 1: Model
 
@@ -100,7 +100,7 @@ In this step, we load the Grid weights in Flash and run the model to detect obje
 
 1. Download Artifacts from Grid Run 
 
-![](../../.gitbook/assets/image%20%288%29.png)
+![](../../../.gitbook/assets/image%20%288%29.png)
 
 1. Load model to our script and inference in 2 lines of code. 
 

@@ -6,13 +6,13 @@ description: Executes a python script on a cloud machine and handles hyperparame
 
 ## Remote execution
 
-![](../../../.gitbook/assets/cloud.jpg)
+![](../../../../.gitbook/assets/cloud.jpg)
 
 `grid run` executes a script on one or more **cloud** machines from your laptop.
 
 Basically... think about it like replacing `python` with `grid run`
 
-![](../../../.gitbook/assets/carbon-1-.png)
+![](../../../../.gitbook/assets/carbon-1-.png)
 
 {% hint style="info" %}
 Projects must be hosted on **Github** for now. [Reach out](mailto:luis@grid.ai) for other cases.
@@ -26,25 +26,25 @@ grid run and grid run are the same, you can use either one.
 
 This command:
 
-![](../../../.gitbook/assets/carbon2.png)
+![](../../../../.gitbook/assets/carbon2.png)
 
 Is equivalent to these commands:
 
-![](../../../.gitbook/assets/carbon3.png)
+![](../../../../.gitbook/assets/carbon3.png)
 
 Our syntax adds support for any numpy distribution, lists, and the range operator:
 
-![](../../../.gitbook/assets/carbon5-2-.png)
+![](../../../../.gitbook/assets/carbon5-2-.png)
 
 ## Command structure
 
 A grid run command has the following structure:
 
-![](../../../.gitbook/assets/carbon6.png)
+![](../../../../.gitbook/assets/carbon6.png)
 
 Annotated Example 1: Run a script on 8 V100 GPUs
 
-![](../../../.gitbook/assets/carbon7.png)
+![](../../../../.gitbook/assets/carbon7.png)
 
 Example 2: Run 8 variations of this script, each on 8 GPUs
 
@@ -310,7 +310,7 @@ grid run --name my-fancy-name my_script.py
 
 Hyperparameter sweep strategy to use, either `grid_search` or `random_search`. If `random_search`, use the `--trials` parameter.
 
-![Grid search tries all combinations. Random search picks a few](../../../.gitbook/assets/search%20%281%29.jpg)
+![Grid search tries all combinations. Random search picks a few](../../../../.gitbook/assets/search%20%281%29.jpg)
 
 Example: Grid search \(runs all 4 variations\)
 

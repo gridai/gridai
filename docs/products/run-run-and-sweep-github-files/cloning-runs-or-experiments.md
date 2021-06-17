@@ -12,7 +12,7 @@ To re-run a run or experiment you have already ran once, use the **clone icon.**
 * Click the clone button
 * Click start
 
-![](../../.gitbook/assets/cloning.png)
+![](../../../.gitbook/assets/cloning.png)
 
 
 

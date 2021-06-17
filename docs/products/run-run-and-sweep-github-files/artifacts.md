@@ -6,7 +6,7 @@ Anytime your script saves artifacts, Grid captures those for you. It does not ma
 
 Try [hello.py](https://github.com/williamFalcon/hello/blob/main/hello.py) for an example
 
-![](../../.gitbook/assets/image%20%2890%29.png)
+![](../../../.gitbook/assets/image%20%2890%29.png)
 
 ## Access artifacts via the UI
 
@@ -17,13 +17,13 @@ To access artifacts:
 * Select the experiments
 * Click artifacts
 
-![](../../.gitbook/assets/art.gif)
+![](../../../.gitbook/assets/art.gif)
 
 ## Share artifacts
 
 Click the link to the right of the artifact to copy the link
 
-![](../../.gitbook/assets/im.png)
+![](../../../.gitbook/assets/im.png)
 
 {% hint style="info" %}
 Artifact links have an expiration of 24 hours.

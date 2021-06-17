@@ -10,9 +10,9 @@ Cloud machines are normally expensive. However, if your job can support being in
 
 ### Enable via the UI
 
-![](../../.gitbook/assets/spot.gif)
+![](../../../.gitbook/assets/spot.gif)
 
-![](../../.gitbook/assets/usespot.png)
+![](../../../.gitbook/assets/usespot.png)
 
 ### Enable via the CLI
 

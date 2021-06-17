@@ -12,7 +12,7 @@ grid artifacts the-run-name
 
 which generates a folder with this structure \(assuming the run name is handsome-dog-665\)
 
-![](../../../.gitbook/assets/image%20%2875%29.png)
+![](../../../../.gitbook/assets/image%20%2875%29.png)
 
 ## Experiment artifacts
 

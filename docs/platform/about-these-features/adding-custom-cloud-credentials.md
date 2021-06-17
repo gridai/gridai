@@ -8,7 +8,7 @@
 
 Grid can orchestrate infrastructure on your own AWS account by simply adding your own AWS credentials.
 
-![](../../.gitbook/assets/own_creds.gif)
+![](../../../.gitbook/assets/own_creds.gif)
 
 #### Early access
 
@@ -24,19 +24,19 @@ Using your own AWS credentials with Grid is currently in closed early access.
 
 Login into your AWS account. You will then use the search bar to find "IAM" \(user management\).
 
-![](../../.gitbook/assets/image%20%28156%29.png)
+![](../../../.gitbook/assets/image%20%28156%29.png)
 
 **B: Click on "Users"**
 
 Click on the "Users" panel. You will be able to see a list of users. If you already have a user, click on your user name. If you don't, move to the next step to create a new user.
 
-![](../../.gitbook/assets/image%20%2859%29.png)
+![](../../../.gitbook/assets/image%20%2859%29.png)
 
 **C: Create New User \(optional\)**
 
 If you don't have a user available and would like to create one, on the "Users" page click on "Add user". Fill in the user name of your preference and make sure to check "Programmatic access" \(this allows you to use AWS keys\).
 
-![](../../.gitbook/assets/image%20%2858%29.png)
+![](../../../.gitbook/assets/image%20%2858%29.png)
 
 Click on "Next: Permissions" &gt;
 
@@ -76,7 +76,7 @@ The final step is to add all the Grid policies to your account. That means that 
 4. Click on "Add permissions"
 5. Click on "Attach existing policies directly"
 
-![Granting permissions to an user.](../../.gitbook/assets/image%20%2813%29.png)
+![Granting permissions to an user.](../../../.gitbook/assets/image%20%2813%29.png)
 
 1. Search for the policy IAMFullAccess:  
 2. Click the Check Box to the left of `IAMFullAccess`

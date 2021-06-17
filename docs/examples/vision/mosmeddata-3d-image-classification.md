@@ -37,7 +37,7 @@ For more information please see the [original Keras tutorial](https://keras.io/e
 
 The MosMedData: Chest CT Scans with COVID-19 Related Findings Dataset \([_reference_](https://www.medrxiv.org/content/10.1101/2020.05.20.20100362v1)\) consists of lung CT scans with COVID-19 related findings, as well as without such findings.‌
 
-![Image Source: https://keras.io/examples/vision/3D\_image\_classification/\#introduction&#x200C;](../../.gitbook/assets/image%20%2871%29.png)
+![Image Source: https://keras.io/examples/vision/3D\_image\_classification/\#introduction&#x200C;](../../../.gitbook/assets/image%20%2871%29.png)
 
 ## Step 1: Keras/Tensorflow Model Script <a id="step-1-model"></a>
 
@@ -88,7 +88,7 @@ This command tells grid to run our train script with the following configuration
 
 After running the CLI command above you should see this message.‌
 
-![](../../.gitbook/assets/image%20%2891%29.png)
+![](../../../.gitbook/assets/image%20%2891%29.png)
 
 ## Step 3: View Model Run Metrics and Artifacts in Grid Web <a id="step-3-use-the-model-for-predictions"></a>
 
@@ -96,15 +96,15 @@ In this step, we log into the Grid Web Account to see our Metrics and Download t
 
 ### 1. Login to [Grid.ai](https://www.grid.ai/) and Click "Get Started with Grid"
 
-![](../../.gitbook/assets/image%20%28117%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%283%29.png)
+![](../../../.gitbook/assets/image%20%28117%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%283%29.png)
 
 ### 2. Select our Run and view Experiment Metrics
 
-![](../../.gitbook/assets/image%20%28110%29.png)
+![](../../../.gitbook/assets/image%20%28110%29.png)
 
 ### 3. Download Artifacts from Grid Run
 
-![](../../.gitbook/assets/image%20%283%29.png)
+![](../../../.gitbook/assets/image%20%283%29.png)
 
 Congratulations you have successfully run your first Tensorflow/Keras script with Grid.
 

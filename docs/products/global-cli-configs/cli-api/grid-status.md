@@ -8,7 +8,7 @@ Shows the status of runs and sessions
 grid status
 ```
 
-![](../../../.gitbook/assets/image%20%28123%29.png)
+![](../../../../.gitbook/assets/image%20%28123%29.png)
 
 ## Status of experiments
 
@@ -18,7 +18,7 @@ See the status of every experiment within a run.
 grid status the-run-name
 ```
 
-![](../../../.gitbook/assets/image%20%281%29.png)
+![](../../../../.gitbook/assets/image%20%281%29.png)
 
 ## Command parameters
 

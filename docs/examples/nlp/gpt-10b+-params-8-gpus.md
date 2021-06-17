@@ -17,11 +17,11 @@ The tutorial is extremely simple...
 1. Find the path of the file we want to train \([https://github.com/SeanNaren/minGPT/blob/stage3/train.py](https://github.com/SeanNaren/minGPT/blob/stage3/train.py)\)
 2. Paste it into the run dialog on the UI
 
-![](../../.gitbook/assets/image%20%2810%29.png)
+![](../../../.gitbook/assets/image%20%2810%29.png)
 
 1. Choose a machine with 8 GPUs \(and make sure you are using all 8 GPUs per experiment\)
 
-![](../../.gitbook/assets/image%20%2874%29.png)
+![](../../../.gitbook/assets/image%20%2874%29.png)
 
 1. Paste the script arguments 
 
@@ -34,7 +34,7 @@ The tutorial is extremely simple...
 --batch_size 1
 ```
 
-![](../../.gitbook/assets/image%20%2868%29.png)
+![](../../../.gitbook/assets/image%20%2868%29.png)
 
 ## Run via the CLI
 

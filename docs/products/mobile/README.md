@@ -12,5 +12,5 @@ Make sure to save the app on your home screen!
 4. Tap "Add to home screen"
 5. Tap done
 
-![](../../.gitbook/assets/ios.gif)
+![](../../../.gitbook/assets/ios.gif)
 
