@@ -68,7 +68,7 @@ git clone https://github.com/williamFalcon/cifar5.git
 cd cifar5
 
 # start run!
-grid run --g_instance_type 8_v100_32gb project/lit_image_classifier.py --gpus 1 --learning_rate "uniform(1e-5, 1e-1, 8)"
+grid run --instance_type 8_v100_32gb project/lit_image_classifier.py --gpus 1 --learning_rate "uniform(1e-5, 1e-1, 8)"
 ```
 
 The command above generates 8 experiments
@@ -96,7 +96,7 @@ Sessions allow you to develop models interactively with direct ssh, VSCode and J
 
 Or via the CLI
 ```bash
-grid session create --g_instance_type 8_v100_32gb
+grid session create --instance_type 8_v100_32gb
 ```
 ---
 
