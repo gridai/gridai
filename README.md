@@ -121,6 +121,8 @@ grid session create --instance_type 8_v100_32gb
 The Grid community is the place to chat about Deep Learning, machine learning and anything about scaling up production or research projects!
 [Join our slack](https://join.slack.com/t/gridai-community/shared_invite/zt-ozqiwuif-UYK6rZGVmTTpMfPcVSdicg)
 
+Contribute to our documentation https://github.com/gridai/grid-docs
+
 ### Asking for help
 If you have any questions here are some things you can do:
 
