@@ -129,6 +129,7 @@ If you have any questions here are some things you can do:
 1. [Read the docs](https://docs.grid.ai).
 2. [Start a discussion](https://github.com/gridai/gridai/discussions).
 3. [Create a Github issue](https://github.com/gridai/gridai/issues/new).
+4. Send us a message [on slack](https://join.slack.com/t/gridai-community/shared_invite/zt-ozqiwuif-UYK6rZGVmTTpMfPcVSdicg)
 
-### Enterprise support
-For enterprise tier and support, [register your interest here](https://gridai.wpengine.com/upgrade/)
+### Enterprise Features
+For enterprise features, upgrades and support, [register your interest here](https://gridai.wpengine.com/upgrade/)
