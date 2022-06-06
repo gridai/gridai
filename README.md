@@ -98,21 +98,6 @@ Or via the CLI
 ```bash
 grid session create --instance_type 8_v100_32gb
 ```
----
-
-## Run Examples
-
-### Vision
-[3D Image classification](https://docs.grid.ai/examples/vision/mosmeddata-3d-image-classification)     
-[Image classificatin (ImageNet)](https://docs.grid.ai/examples/vision/image-classification-with-imagenet)    
-[Object detection (Coco)](https://docs.grid.ai/examples/vision/coco)
-
-### NLP
-[GPT 10+ B Params](https://docs.grid.ai/examples/nlp/gpt-10b+-params-8-gpus)    
-[Text classification](https://docs.grid.ai/examples/nlp/text-classification)
-
-### Self-supervised learning
-[SIMCLR](https://docs.grid.ai/examples/self-supervised-learning-1)
 
 ---
 
